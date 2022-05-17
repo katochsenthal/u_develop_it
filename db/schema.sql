@@ -1,7 +1,7 @@
 CREATE TABLE parties (
-  id INTEGER PRIMARY KEY,
+  id INTEGER  AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(50) NOT NULL,
-  description TEXT
+  description VARCHAR(4000)
 );
 
 
